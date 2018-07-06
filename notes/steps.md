@@ -18,3 +18,11 @@
 ## Header
 * List the pieces that we'll be adding to the header
 * Replace each part with an element
+
+## Nav
+* Add `div`s for the 7 sections
+* Give the `div`s class names: `.sidebar_section` which we'll use for all of the styles each section has in common, and modifier classes for the section-specific styles
+* Let's add the modifier names to the classes and add placeholder text to each div
+  * Naming things is hard (Google it. It's true). Try to come up with a good name, don't worry if it's not a perfect name.
+* Let's make the last div a `footer`. This way the browser knows that this is where the traditional footer stuff is.
+  * Remember how we started off using class names in our styles instead of elements? Changing the `div` to a `footer` is an example of why. If we'd already started creating styles, then later realized we needed to use a different, better-suited element, we wouldn't have to change our CSS as well.
