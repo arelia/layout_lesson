@@ -17,3 +17,4 @@
 
 ## Header
 * List the pieces that we'll be adding to the header
+* Replace each part with an element
