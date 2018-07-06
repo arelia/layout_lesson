@@ -63,3 +63,4 @@
 ## Scrolling
 * The navigation and content areas each scroll independently. We can do that with the CSS property `overflow`
   * We also need to set our row to the height of the page minus the height of the header (instead of `auto`), using `calc`
+* One more thing and then we'll be at a good stopping point: set the logo `height` to `100%` so that it stops pushing down the other header elements

@@ -19,6 +19,10 @@ body {
   background-color: pink;
 }
 
+.logo {
+  height: 100%;
+}
+
 .sidebar {
   background-color: lightblue;
   overflow-y: auto;
