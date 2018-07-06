@@ -12,3 +12,8 @@
 # Layout
 * Add temporary background colors to your elements so you can see what the default layout is
 * Use grid to make the sections fill the correct spaces
+
+# Building the sections
+
+## Header
+* List the pieces that we'll be adding to the header
