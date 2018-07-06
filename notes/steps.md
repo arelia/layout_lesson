@@ -44,6 +44,8 @@
 * Our videos are another type of list, so we'll use `ul` and `li` tags
 * We can use `p` tags for any block of text, not just full paragraphs. We'll wrap `views` and `time` together because we'll display them in one line
 * For the video element, we'll wrap it in a `wrapper` div. This way we can apply styles to the `div` rather than directly to the element. We'll set dimensions on the `div`, and whether we use a `video` element, an `iframe` or a placeholder image, we can style the child element to grow to fill the `div`.
+* Right now our `video` element leaves a blank space. Let's use a placeholder video from https://coverr.co/. When we finish you can add your own videos.
+  * Chrome doesn't allow autoplay of videos (because it can annoy your site's visitors). Two options: 1) add the `muted` attribute and Chrome will allow the video to autoplay, 2) add the `controls` attribute and the user can click play to start the video
 * After you have the structure of one `.video_item`, duplicate that so that our category has 5 videos.
 * Next, copy the `.videos_row` so that you have at least 5 rows
 * In our `main.css` file, add a temporary border style to `.videos_row` so that we can see where each row begins and ends
