@@ -1,11 +1,19 @@
-.header {
-  
-}
-
-.sidebar {
-
+body {
+  background-color: lightgreen;
 }
 
 .main {
+  background-color: yellow;
+}
 
+.header {
+  background-color: pink;
+}
+
+.sidebar {
+  background-color: lightblue;
+}
+
+.content {
+  background-color: lavender;
 }
