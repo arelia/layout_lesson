@@ -49,3 +49,13 @@
 * After you have the structure of one `.video_item`, duplicate that so that our category has 5 videos.
 * Next, copy the `.videos_row` so that you have at least 5 rows
 * In our `main.css` file, add a temporary border style to `.videos_row` so that we can see where each row begins and ends
+
+# Styles
+
+## Videos
+* Now that we have all of our markup, let's add styles
+* We'll start with the videos because they're huge and making them the right size is really going to help our site start to take shape
+* Just a few styles will arrange and size the videos
+  * Set a `max-width` on `.video_wrapper`
+  * Style `.video_media` with `object-fit` and a `width`
+  * Use flexbox on `.video_list`

@@ -30,3 +30,16 @@ body {
 .videos_row {
   border: 1px solid black;
 }
+
+.video_list {
+  display: flex;
+}
+
+.video_wrapper {
+  max-width: 210px;
+}
+
+.video_media {
+  width: 100%;
+  object-fit: contain;
+}
