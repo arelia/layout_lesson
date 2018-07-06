@@ -1,3 +1,8 @@
+# Why
+* Give you ideas about what to do on your personal sites
+* Show you how a developer might think through things
+* Cover techniques we might not have covered yet so you can decide what you'd like to review further
+
 # Scaffolding
 * Add `index.html` with HTML structure
 * Add `styles` folder
