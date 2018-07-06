@@ -26,3 +26,7 @@ body {
 .content {
   background-color: lavender;
 }
+
+.videos_row {
+  border: 1px solid black;
+}

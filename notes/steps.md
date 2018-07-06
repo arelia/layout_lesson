@@ -37,4 +37,13 @@
 
 ### Nav Items
 * Let's use lists for the nav items. This tells the browser that the nav links are groups of related options. You've been using lists to create your nav bars already.
-* 
+
+## Content
+* Add a `div` for ads (`.ad`) at the top
+* Add a `div` for videos. This will be our first video row
+* Our videos are another type of list, so we'll use `ul` and `li` tags
+* We can use `p` tags for any block of text, not just full paragraphs. We'll wrap `views` and `time` together because we'll display them in one line
+* For the video element, we'll wrap it in a `wrapper` div. This way we can apply styles to the `div` rather than directly to the element. We'll set dimensions on the `div`, and whether we use a `video` element, an `iframe` or a placeholder image, we can style the child element to grow to fill the `div`.
+* After you have the structure of one `.video_item`, duplicate that so that our category has 5 videos.
+* Next, copy the `.videos_row` so that you have at least 5 rows
+* In our `main.css` file, add a temporary border style to `.videos_row` so that we can see where each row begins and ends
