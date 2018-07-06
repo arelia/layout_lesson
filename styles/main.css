@@ -34,6 +34,8 @@ body {
 
 .video_list {
   display: flex;
+  /* Space between because I want the videos to be flush to the edges with all of the extra space in between them */
+  justify-content: space-between;
 }
 
 .video_wrapper {
