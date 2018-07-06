@@ -2,7 +2,7 @@ body {
   background-color: lightgreen;
   /* Let's use CSS grid to give our page one 50px row for the header and to fill the rest of the page with our `main` area */
   display: grid;
-  grid-template-rows: 50px auto;
+  grid-template-rows: 50px calc(100vh - 50px);
   /* Even though we see the page covered in light green, the body isn't actually filling the height of the page until we add a height. Also adding width just to be explicit. */
   width: 100vw;
   height: 100vh;
@@ -21,11 +21,13 @@ body {
 
 .sidebar {
   background-color: lightblue;
+  overflow-y: auto;
 }
 
 .content {
   background-color: lavender;
   padding: 20px 50px;
+  overflow-y: auto;
 }
 
 .videos_row {

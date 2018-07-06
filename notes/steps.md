@@ -59,3 +59,7 @@
   * Set a `max-width` on `.video_wrapper`
   * Style `.video_media` with `object-fit` and a `width`
   * Use flexbox on `.video_list`
+
+## Scrolling
+* The navigation and content areas each scroll independently. We can do that with the CSS property `overflow`
+  * We also need to set our row to the height of the page minus the height of the header (instead of `auto`), using `calc`
